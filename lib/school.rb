@@ -1,7 +1,7 @@
 class School
 
   def initialize(roster)
-    @roster = hash
+    @roster = {}
   end
 
   def roster
