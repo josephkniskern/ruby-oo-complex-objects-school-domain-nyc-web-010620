@@ -1,10 +1,10 @@
 class School
 
-  def initialize(roster)
-    @roster = roster
+  def initialize(model)
+    @model = model
   end
 
-  def name
-    @roster
+  def model
+    @model
   end
 end
