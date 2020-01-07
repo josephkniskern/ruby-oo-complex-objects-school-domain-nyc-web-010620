@@ -14,5 +14,6 @@ class School
 
   def grade(grade)
     grade[name]
+  end
 
 end
