@@ -26,7 +26,7 @@ class School
 
   def sort
     roster.each do |k, v|
-      roster.sort_by(v)
+      roster.sort_by
     end
 
   end
