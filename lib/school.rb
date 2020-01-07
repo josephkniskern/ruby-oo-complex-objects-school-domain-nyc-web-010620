@@ -9,12 +9,11 @@ class School
   end
 
   def add_student(name, grade)
-    roster[grade] = [name]
+    if roster[grade]
+      roster[grade].push(name)
+    else
+      roster[grade] = [name]
   end
 end
 
-#school = new School({})
-h = {}
 
-h["name"].push("dave")
-puts h
