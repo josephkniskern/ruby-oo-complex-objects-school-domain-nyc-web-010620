@@ -12,3 +12,5 @@ class School
     roster[grade] = [name]
   end
 end
+
+school = new School({})
