@@ -17,7 +17,12 @@ class School
   end
 
   def grade(grade)
-    roster.select { |grade, v| grade[v] }
+    roster.select do |k, v|
+      if grade == k
+        return v
+      end 
+    end 
+  end
   end
 
 
