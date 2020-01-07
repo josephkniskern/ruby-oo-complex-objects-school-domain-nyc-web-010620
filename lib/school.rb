@@ -13,4 +13,5 @@ class School
   end
 end
 
-school = new School({})
+#school = new School({})
+puts 'hi'
