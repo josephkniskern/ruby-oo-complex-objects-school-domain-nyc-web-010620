@@ -29,6 +29,8 @@ class School
     roster.each do |k, v|
       new_hash[k] = v.sort
     end
+
+    new_hash
   end
 
 
