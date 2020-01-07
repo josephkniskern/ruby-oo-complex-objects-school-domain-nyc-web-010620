@@ -1,7 +1,7 @@
 class School
 
   def initialize(roster)
-    @roster = Hash.new([])
+    @roster = hash
   end
 
   def roster
@@ -9,11 +9,12 @@ class School
   end
 
   def add_student(name, grade)
-    roster[grade].push(name)
+    if roster[grade]
+      roster[grade].push(name)
+    else
+      roster[grade] = [name]
+    end
   end
 
-  def grade(grade)
-    
-  end
-
+  
 end
