@@ -9,6 +9,6 @@ class School
   end
 
   def add_student(name, grade)
-    roster.each { |ele| roster[grade] = [name] }
+    roster[name] = grade
   end
 end
