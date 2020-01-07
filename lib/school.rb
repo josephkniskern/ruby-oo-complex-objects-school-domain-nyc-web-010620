@@ -16,5 +16,5 @@ end
 #school = new School({})
 h = {}
 h["name"] = ['vera']
-h["name"].push["dave"]
+h["name"].push("dave")
 puts h
