@@ -25,7 +25,10 @@ class School
   end
 
   def sort
-    roster.sort_by { |k, v| k }
+    new_hash = {}
+    roster.each do |k, v|
+
+    end
   end
 
 
