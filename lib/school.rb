@@ -14,4 +14,7 @@ class School
 end
 
 #school = new School({})
-puts 'hi'
+h = {}
+h["name"] = ['vera']
+
+puts h
