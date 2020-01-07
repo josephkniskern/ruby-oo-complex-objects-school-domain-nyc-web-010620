@@ -25,8 +25,10 @@ class School
   end
 
   def sort
-    roster.sort(roster[grade])
+    roster.each do |k, v|
+      roster.sort_by(v)
     end
+
   end
 
 
