@@ -17,7 +17,7 @@ class School
   end
 
   def grade(grade)
-    roster.select { |k, v| v }
+    roster.select { |k, v| grade[v] }
   end
 
 
