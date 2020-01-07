@@ -5,6 +5,8 @@ class School
   end
 
   def roster
-    @roster 
+    @roster
   end
+
+  attr_accessor :student
 end
