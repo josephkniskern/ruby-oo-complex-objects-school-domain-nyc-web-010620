@@ -20,8 +20,8 @@ class School
     roster.select do |k, v|
       if grade == k
         return v
-      end 
-    end 
+      end
+    end
   end
   end
 
