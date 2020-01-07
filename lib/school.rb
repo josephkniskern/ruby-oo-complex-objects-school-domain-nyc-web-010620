@@ -29,7 +29,6 @@ class School
       roster.sort(v)
     end
   end
-  end
 
 
 end
