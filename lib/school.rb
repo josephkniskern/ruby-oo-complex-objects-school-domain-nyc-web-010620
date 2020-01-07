@@ -17,7 +17,7 @@ class School
   end
 
   def grade(grade)
-    roster.map { |k, v| k }
+    roster.map { |k, v| v }
   end
 
 
