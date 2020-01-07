@@ -17,8 +17,8 @@ class School
   end
 
   def grade(grade)
-    roster.select do |k, v|
-      grade == k
+    roster.each do |k, v|
+      if grade == k
         return v
       end
     end
